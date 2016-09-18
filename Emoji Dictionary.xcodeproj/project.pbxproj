@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C4AB61F1D8E28BC00AB3DC4 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4AB61E1D8E28BC00AB3DC4 /* DefinitionViewController.swift */; };
 		6C78C6931D8CE1B1009902AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C6921D8CE1B1009902AD /* AppDelegate.swift */; };
 		6C78C6951D8CE1B1009902AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78C6941D8CE1B1009902AD /* ViewController.swift */; };
 		6C78C6981D8CE1B1009902AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C78C6961D8CE1B1009902AD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C4AB61E1D8E28BC00AB3DC4 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		6C78C68F1D8CE1B1009902AD /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C78C6921D8CE1B1009902AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C78C6941D8CE1B1009902AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				6C78C6921D8CE1B1009902AD /* AppDelegate.swift */,
 				6C78C6941D8CE1B1009902AD /* ViewController.swift */,
+				6C4AB61E1D8E28BC00AB3DC4 /* DefinitionViewController.swift */,
 				6C78C6961D8CE1B1009902AD /* Main.storyboard */,
 				6C78C6991D8CE1B1009902AD /* Assets.xcassets */,
 				6C78C69B1D8CE1B1009902AD /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C78C6951D8CE1B1009902AD /* ViewController.swift in Sources */,
+				6C4AB61F1D8E28BC00AB3DC4 /* DefinitionViewController.swift in Sources */,
 				6C78C6931D8CE1B1009902AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				6C78C6A31D8CE1B1009902AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
